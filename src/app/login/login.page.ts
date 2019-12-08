@@ -12,4 +12,10 @@ export class LoginPage implements OnInit {
   ngOnInit() {
   }
 
+  googlelogin(): void {
+    console.log('google login clicked');
+  }
+
 }
+
+
